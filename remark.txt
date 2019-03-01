@@ -1,0 +1,4 @@
+启动 四台eureka-server,两台eureka-client,两台zuul-gateway
+然后访问以下路径查看相关信息
+http://localhost:10002/eureka-client/actuator/env
+http://localhost:10001/eureka-client/actuator/env
